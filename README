@@ -1,0 +1,44 @@
+
+During the Fall 2020 semester, I was taking Discrete Mathematics 2.
+In the course we learned that a decent way to represent
+a graph in a computer is with an adjacency list. I decided I would 
+start with Python to implement a data structure that represents 
+an adjacency list. I chose Python because it is the programming 
+language I understand the best and I needed a working program 
+in a short amount of time. First I used a whiteboard to draw a picture of
+how I would topologically sort an adjacency list created from one of
+the sample test cases from the assignment description. I noticed right
+away that the nodes that did not have any incoming edges were not
+listed as keys in the adjacency list. The adjacency list was later on 
+implemented in Python using a dictionary in which the keys were strings 
+and the values the keys referred to were a list of strings. I chose a
+dictionary, because it closely reflected how I designed my solution on
+a whiteboard.
+
+I never used the OCaml programming langauge before this class, but after 
+reading a few chapters in multiple books I started to understand how 
+powerful pattern matching can be in tandem with recursive functions.
+Pattern matching was a new concept to me, but there was a few things I
+implemented in OCaml that would be difficult to do in Python. At least
+more difficult than how elegantly it was done in OCaml. The OCaml version just
+looks better to me. One of the most notable differences between OCaml and
+Python is how expressions are evaluated.
+
+Expressions in OCaml can only evalutate to one type unlike an expression 
+in Python that can evaluate to different types depending on which types an 
+operator is operating on. Example a + b in Python can be interpretted as 
+integer addition or string concatentation just to name a few ways the expression
+can be interpretted. However, in OCaml a + b is strictly integer addition. 
+I enjoy this aspect of OCaml, because there is no ambiguity of what types a and 
+b can be in the expression. The downside of this design choice is that there are
+many more operators to remember, but leads to better readability. In constrast 
+the Python programming language relies on reusing operators to produce different 
+results depending on the operands.
+
+The test case I used was simple but effective in judging the performance of the
+program. I made sure that the test case list had some use of recursion. Where one
+task depended on another task which depended on another task. In terms of difficulty
+for this assignment OCaml was at least twice as difficult in comparision to Python
+to implement the topological sort algorithm. This is because I have more experience
+using Python.
+
