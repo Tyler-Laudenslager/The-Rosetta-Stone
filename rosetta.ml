@@ -1,7 +1,5 @@
 (* 
    Tyler Laudenslager
-   CSC 310 Programming Languages
-   Spring 2021
 
    I learned pattern matching, recursion,
    higher-order functions, and dictionaries 
