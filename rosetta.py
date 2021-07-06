@@ -1,6 +1,4 @@
 #Tyler Laudenslager
-#CSC 310 Programming Languages
-#Spring 2021
 
 import sys
 
